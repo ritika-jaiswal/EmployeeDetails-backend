@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/employees")
-@CrossOrigin(origins = "http://localhost:3000") // Allow CORS for this origin
+@CrossOrigin(origins = "https://employee-deatils.netlify.app") // Allow CORS for this origin
 public class EmployeeController {
 
     @Autowired
